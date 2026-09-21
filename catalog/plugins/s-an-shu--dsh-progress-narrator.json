@@ -1,0 +1,12 @@
+{
+  "$schema": "../schema/plugin.schema.json",
+  "id": "S-AN-Shu/dsh-progress-narrator",
+  "name": "dsh-progress-narrator",
+  "repository": "https://github.com/S-AN-Shu/dsh-progress-narrator",
+  "category": "ui",
+  "description": {
+    "en": "Quiet work narration for the DSH conversation view: the Host asks the model for a one-line progress note before real work and issues bounded reminders on step and time thresholds; the client folds settled reasoning and tool blocks in the official view while keeping the latest thought and running tool calls visible, and yields folding control to better-display when its Reader markers are present. Settings cover the enable switch, cadence, narration style and an optional status panel.",
+    "zh": "为 DSH 对话视图提供安静的工作播报：Host 侧要求模型在实际工作前输出一句进度说明，并按步骤与时间阈值做有界提醒；客户端在官方对话视图中折叠已结束的思考与工具过程块、保留最近思考和运行中的工具调用，检测到 better-display 的 Reader 标记时自动让出折叠控制。设置页可配置开关、节奏、播报风格与可选状态面板。"
+  },
+  "added": "2026-09-21"
+}
